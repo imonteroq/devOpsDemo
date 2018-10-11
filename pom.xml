@@ -3,12 +3,12 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
+  <groupId>com.example.devOpsDemo</groupId>
+  <artifactId>devOpsDemo</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Maven Project</name>
-  <description>Sample Maven project with a working, deployable site.</description>
+  <name>DevOps Demo</name>
+  <description>Simple Project for the DevOps Demo</description>
   <url>http://www.example.com</url>
 
   <properties>
@@ -25,7 +25,7 @@
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
+      <url>file:///tmp/devOpsDemo-site</url>
     </site>
   </distributionManagement>
 
@@ -112,7 +112,7 @@
         </plugin>
 
         <plugin>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <artifactId>devOpsDemo-info-reports-plugin</artifactId>
           <version>2.4</version>
         </plugin>
 
@@ -207,10 +207,10 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
+    <connection>scm:git:git@github.com:imonteroq/devOpsDemo.git</connection>
+    <developerConnection>scm:git:git@github.com:https://github.com/imonteroq/devOpsDemo</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
+    <url>https://github.com/imonteroq/devOpsDemo</url>
   </scm>
 
   <prerequisites>
