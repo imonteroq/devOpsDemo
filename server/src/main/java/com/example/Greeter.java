@@ -12,7 +12,7 @@ public class Greeter {
 
   }
 
-  //INSERT A JAVA DOC COMMENT HERE
+  //TODO: INSERT A JAVA DOC COMMENT HERE
   public String greet(final String someone) {
     return String.format("Hi %s!", someone);
   }
