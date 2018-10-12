@@ -1,5 +1,5 @@
 /**
- * This is a sample package
+ * This is a sample package.
  *
  */
 
